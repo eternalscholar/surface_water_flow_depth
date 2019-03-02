@@ -20,7 +20,7 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoidmlzaG51bWFoZSIsImEiOiJjanNlM2l0NzIwYnlxNDlxZ3I3ZHZjcGNxIn0.NU5b87jh7rCiUdT1ZiO5mw';
 var map = new mapboxgl.Map({
     container: 'map',
-    zoom: 8,
+    zoom: 15,
     center: [-78.679454,35.736199],
     pitch: 70,
     style: 'mapbox://styles/mapbox/satellite-v9'
@@ -84,7 +84,7 @@ for (var i = 0; i < layers.length; i++) {
     }
 }
 //Add 3d Buildings layer
-map.addLayer({
+/*map.addLayer({
     'id': '3d-buildings',
     'source': 'composite',
     'source-layer': 'building',
@@ -107,7 +107,7 @@ map.addLayer({
         ],
         'fill-extrusion-opacity': 0.8
         }
-    }, labelLayerId);
+    }, labelLayerId);*/
 </script>
 
     
